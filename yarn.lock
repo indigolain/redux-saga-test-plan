@@ -35,7 +35,7 @@
   dependencies:
     "@redux-saga/symbols" "^1.1.0"
 
-"@redux-saga/is@^1.1.0", "@redux-saga/is@^1.1.1":
+"@redux-saga/is@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@redux-saga/is/-/is-1.1.0.tgz#d74358364ebde160bf1b8bd94903ff7684b12d41"
   integrity sha512-0uFXWGSvDCfNBdROHwEVixNhFbI3S+UGBQfcPXQiYL+CjIjyR3DTg2Z+NFH9xzP+H4Oh/yGtTHDhC0GxYp7HQQ==
@@ -43,7 +43,7 @@
     "@redux-saga/symbols" "^1.1.0"
     "@redux-saga/types" "^1.1.0"
 
-"@redux-saga/symbols@^1.1.0", "@redux-saga/symbols@^1.1.1":
+"@redux-saga/symbols@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@redux-saga/symbols/-/symbols-1.1.0.tgz#676b277cb5deb48ce723b2b394cbae97f82e8319"
   integrity sha512-Fzw1wV3j4hbac3MYmgNE18Z53URmQZeilTHZLF7Lm4SQ1jG4fcU47v2kElsEbQXUSaFqj+uJqdRzmDGNb6pRwQ==
@@ -1518,10 +1518,10 @@ eslint-config-airbnb-base@^12.0.0:
   dependencies:
     eslint-restricted-globals "^0.1.1"
 
-eslint-config-prettier@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-5.0.0.tgz#f7a94b2b8ae7cbf25842c36fa96c6d32cd0a697c"
-  integrity sha512-c17Aqiz5e8LEqoc/QPmYnaxQFAHTx2KlCZBPxXXjEMmNchOLnV/7j0HoPZuC+rL/tDC9bazUYOKJW9bOhftI/w==
+eslint-config-prettier@^6.3.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.5.0.tgz#aaf9a495e2a816865e541bfdbb73a65cc162b3eb"
+  integrity sha512-cjXp8SbO9VFGW/Z7mbTydqS9to8Z58E5aYhj3e1+Hx7lS9s6gL5ILKNpCqZAFOVYRcSkWPFYljHrEh8QFEK5EQ==
   dependencies:
     get-stdin "^6.0.0"
 
@@ -4890,6 +4890,11 @@ typescript-tuple@^2.2.1:
   integrity sha512-Zcr0lbt8z5ZdEzERHAMAniTiIKerFCMgd7yjq1fPnDJ43et/k9twIFQMUYff9k5oXcsQ0WpvFcgzK2ZKASoW6Q==
   dependencies:
     typescript-compare "^0.0.2"
+
+typescript@3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
+  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
 uglify-js@^2.6:
   version "2.8.29"

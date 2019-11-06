@@ -28,7 +28,19 @@
     "docs:watch": "npm run docs:prepare && gitbook serve",
     "docs:publish": "npm run docs:clean && npm run docs:build && cp CNAME _book && cd _book && git init && git commit --allow-empty -m 'update book' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'update book' && git push git@github.com:jfairbank/redux-saga-test-plan gh-pages --force"
   },
-  "typings": "index.d.ts",
+  "typings": "./index.d.ts",
+  "typesVersions": {
+    ">=3.6": {
+      "*": [
+        "./types/ts3.6/*"
+      ]
+    },
+    ">=3.2": {
+      "*": [
+        "./types/*"
+      ]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jfairbank/redux-saga-test-plan.git"
@@ -49,6 +61,9 @@
   },
   "homepage": "https://github.com/jfairbank/redux-saga-test-plan#readme",
   "devDependencies": {
+    "@redux-saga/is": "^1.1.0",
+    "@redux-saga/symbols": "^1.1.0",
+    "@redux-saga/testing-utils": "^1.1.1",
     "babel-cli": "^6.7.7",
     "babel-core": "^6.7.7",
     "babel-eslint": "^8.0.0",
@@ -75,10 +90,8 @@
     "prettier": "1.11.0",
     "redux": "^4.0.0",
     "redux-saga": "^1.1.1",
-    "@redux-saga/is": "^1.1.0",
-    "@redux-saga/testing-utils": "^1.1.1",
-    "@redux-saga/symbols": "^1.1.0",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "typescript": "3.4.5"
   },
   "dependencies": {
     "core-js": "^2.4.1",

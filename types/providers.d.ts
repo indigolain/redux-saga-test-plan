@@ -13,19 +13,19 @@ export type EffectProvider<EffectDescriptor>
 export type EffectProviders = {
     actionChannel?: EffectProvider<E.ActionChannelEffectDescriptor>;
     all?: EffectProvider<E.AllEffectDescriptor<any>>;
-    call?: EffectProvider<E.CallEffectDescriptor<any>>;
+    call?: EffectProvider<E.CallEffectDescriptor>;
     cancel?: EffectProvider<E.CancelEffectDescriptor>;
     cancelled?: EffectProvider<E.CancelledEffectDescriptor>;
-    cps?: EffectProvider<E.CallEffectDescriptor<any>>;
+    cps?: EffectProvider<E.CallEffectDescriptor>;
     flush?: EffectProvider<E.FlushEffectDescriptor<any>>;
-    fork?: EffectProvider<E.ForkEffectDescriptor<any>>;
+    fork?: EffectProvider<E.ForkEffectDescriptor>;
     getContext?: EffectProvider<E.GetContextEffectDescriptor>;
     join?: EffectProvider<E.JoinEffectDescriptor>;
     put?: EffectProvider<E.PutEffectDescriptor<any>>;
     race?: EffectProvider<E.RaceEffectDescriptor<any>>;
     select?: EffectProvider<E.SelectEffectDescriptor>;
     setContext?: EffectProvider<E.SetContextEffectDescriptor<any>>;
-    spawn?: EffectProvider<E.CallEffectDescriptor<any>>;
+    spawn?: EffectProvider<E.CallEffectDescriptor>;
     take?: EffectProvider<E.TakeEffectDescriptor & E.ChannelTakeEffectDescriptor<any>>;
 };
 
